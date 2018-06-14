@@ -64,3 +64,53 @@ SELECT TOP(3)		    e.EmployeeID,
 		WHERE  e.HireDate > '1/1/1999'
 		AND	   d.Name IN('Sales', 'Finance')	
 		ORDER  BY e.HireDate ASC
+
+-- P07. Employees With Project
+
+		
+SELECT TOP (5) e.EmployeeID,
+               e.FirstName,
+               p.Name
+FROM Employees AS e
+		 JOIN  EmployeesProjects AS ep ON e.EmployeeID = ep.EmployeeID
+		 JOIN  Projects AS p ON ep.ProjectID = p.ProjectID
+WHERE		   p.StartDate >
+(
+    SELECT CONVERT(DATE, '13.08.2002', 103)
+)
+		  AND  p.EndDate IS NULL
+	 ORDER BY  e.EmployeeID
+
+-- P08. Employee 24
+
+	SELECT e.EmployeeID,
+		   e.FirstName,
+       CASE
+           WHEN p.StartDate > '2005'
+           THEN NULL
+           ELSE p.Name
+         END AS ProjectName
+		 FROM Employees AS e
+		 JOIN EmployeesProjects AS ep ON e.EmployeeID = ep.EmployeeID
+		 JOIN Projects AS p ON ep.ProjectID = p.ProjectID
+		 WHERE e.EmployeeID = 24
+
+-- P09. Employee Manager
+
+		SELECT		e.EmployeeID, 
+					e.FirstName,
+					e.ManagerID,
+					m.FirstName AS ManagerName
+		FROM	Employees AS e
+			JOIN	Employees AS m ON e.ManagerID = m.ManagerID
+		WHERE	e.ManagerID IN(3, 7)
+		ORDER	BY e.EmployeeID ASC
+
+		
+				  
+				   
+				   
+		
+			
+		
+		
