@@ -137,6 +137,62 @@ GROUP BY e.FirstName + ' ' + e.LastName
 ORDER BY [Users Number] DESC,
 		 [Name] ASC;
 
+-- P11. Emergency Patrol
+
+SELECT 
+r.OpenDate, r.[Description], u.Email AS [Reporter Email]
+FROM Reports AS r
+JOIN Users AS u ON r.UserId = u.Id
+JOIN Categories AS c ON c.Id = r.CategoryId
+WHERE CloseDate IS  NULL 
+AND LEN(r.Description) > 20
+AND r.[Description] LIKE '%str%'
+AND c.DepartmentId IN(1, 4 ,5)	
+ORDER BY r.OpenDate ASC,
+	     [Reporter Email] ASC,
+		 r.Id ASC;
+
+--P12. Birthday Report 
+
+SELECT DISTINCT c.[Name] AS [Category Name]
+FROM Categories AS c
+JOIN Reports AS r ON c.Id = r.CategoryId
+JOIN Users  AS u ON r.UserId = u.Id
+WHERE DAY(r.OpenDate) = DAY(u.BirthDate) 
+AND MONTH(r.OpenDate) = MONTH(u.BirthDate)
+ORDER BY [Category Name]
+
+--P13. Numbers Coincidence 
+
+
+SELECT  u.Username
+FROM Users AS u
+JOIN Reports AS r ON r.UserId = u.Id
+JOIN Categories AS c ON c.Id = r.CategoryId
+WHERE u.Username LIKE '[0-9]%'
+--WHERE LEFT(u.Username , 1) LIKE '[0-9]'
+AND CONVERT(VARCHAR(10), c.Id) = LEFT(u.Username ,1)
+OR --RIGHT(u.Username, 1) LIKE '[0-9]' 
+u.Username LIKE '%[0-9]'
+AND CONVERT(VARCHAR(10), c.Id) = RIGHT(u.Username ,1)
+ORDER BY u.Username
+
+--P15.	Average Closing Time
+
+SELECT
+ d.[Name] AS [Department Name], 
+ ISNULL(CONVERT(VARCHAR(10), AVG(DATEDIFF(DAY, r.OpenDate, r.CloseDate))), 'no info') AS [Average Duration]
+FROM Departments AS d
+JOIN Categories AS c ON d.Id = c.DepartmentId
+JOIN Reports AS r ON c.Id = r.CategoryId
+GROUP BY d.[Name]
+
+
+
+
+
+
+
 
 
 
