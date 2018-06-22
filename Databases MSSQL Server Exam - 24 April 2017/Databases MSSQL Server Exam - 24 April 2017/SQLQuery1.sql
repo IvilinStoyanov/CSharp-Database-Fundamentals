@@ -180,6 +180,57 @@ JOIN   Orders AS o ON o.OrderId = op.OrderId
 WHERE  DATEDIFF(WEEK, o.IssueDate, '2017-04-24') <= 3
 
 
+--P13. Past Expenses
+
+SELECT  j.JobId, ISNULL(SUM(op.Quantity * p.Price),0) AS [Total]
+FROM Jobs AS j
+LEFT JOIN Orders AS o ON o.JobId = j.JobId
+LEFT JOIN OrderParts AS op ON op.OrderId = o.OrderId
+LEFT JOIN Parts AS p ON p.PartId = op.PartId
+WHERE j.[Status] LIKE 'Finished'
+GROUP BY j.JobId
+ORDER BY [Total] DESC,
+	     j.JobId ASC;
+
+-- P14.	Model Repair Time
+
+SELECT m.ModelId, m.[Name], CAST(AVG(DATEDIFF(DAY, j.IssueDate, j.FinishDate)) AS VARCHAR) + ' days' AS [Average Service Time]
+FROM Models AS m
+LEFT JOIN Jobs AS j ON m.ModelId = j.ModelId
+GROUP BY m.ModelId, m.[Name]
+ORDER BY [Average Service Time] ASC
+
+--P15. Faultiest Model 
+
+SELECT TOP(1) m.[Name], COUNT(j.JobId), SUM(op.Quantity * p.Price) AS [Parts Total]
+FROM Jobs AS j
+  JOIN Models AS m ON j.ModelId = m.ModelId
+LEFT JOIN Orders AS o ON o.JobId = j.JobId
+LEFT JOIN OrderParts AS op ON op.OrderId = o.OrderId
+LEFT JOIN Parts AS p ON p.PartId = op.PartId
+GROUP BY m.[Name]
+ORDER BY([Parts Total]) DESC
+
+--P17. Cost of Order
+GO
+CREATE FUNCTION udf_GetCost 
+(@jobId INT)
+RETURNS DECIMAL(6, 2)
+AS
+	BEGIN
+		RETURN
+		(
+		SELECT(ISNULL(SUM(p.Price),0))
+		FROM Parts AS p
+			JOIN OrderParts AS op ON op.PartId = p.PartId
+			JOIN Orders AS o ON o.OrderId = op.OrderId
+			WHERE o.JobId = @jobId
+		);
+			END;
+
+
+
+
 
 
 
