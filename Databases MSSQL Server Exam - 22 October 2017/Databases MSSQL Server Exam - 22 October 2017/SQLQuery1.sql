@@ -187,6 +187,9 @@ JOIN Categories AS c ON d.Id = c.DepartmentId
 JOIN Reports AS r ON c.Id = r.CategoryId
 GROUP BY d.[Name]
 
+--P16.
+
+
 
 
 
