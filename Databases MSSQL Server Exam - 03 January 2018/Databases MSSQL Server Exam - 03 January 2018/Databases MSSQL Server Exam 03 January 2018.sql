@@ -152,3 +152,122 @@ ORDER BY [TimesOrdered] DESC,
 		 m.Manufacturer DESC,
 		 m.Model ASC;
 
+-- P11.	Kinda Person
+SELECT Names, Class
+FROM 
+(
+	SELECT c.FirstName + ' ' + c.LastName AS [Names], m.Class,
+	 RANK() OVER (PARTITION BY c.FirstName + ' ' + c.LastName ORDER BY COUNT(m.Class) DESC) AS RANK
+	FROM Clients AS c
+	JOIN Orders AS o ON o.ClientId = c.Id
+	JOIN Vehicles AS v ON v.Id = o.VehicleId
+	JOIN Models AS m ON m.Id = v.ModelId
+	GROUP BY c.FirstName + ' ' + c.LastName, m.Class
+) AS H1
+WHERE RANK = 1
+ORDER BY Names, Class
+
+-- P12. Age Groups Revenue 
+
+SELECT AgeGroup =
+	CASE
+		WHEN YEAR(c.BirthDate) BETWEEN 1970 AND 1979 THEN '70''s'
+		WHEN YEAR(c.BirthDate) BETWEEN 1980 AND 1989 THEN '80''s'
+		WHEN YEAR(c.BirthDate) BETWEEN 1990 AND 1999 THEN '90''s'
+		ELSE 'Others'
+	END,
+	SUM(o.Bill) AS Revenue,
+	AVG(o.TotalMileage) AS [AverageMileage]
+FROM Clients AS c
+JOIN Orders AS o ON c.Id = o.ClientId
+GROUP BY
+	CASE
+		WHEN YEAR(c.BirthDate) BETWEEN 1970 AND 1979 THEN '70''s'
+		WHEN YEAR(c.BirthDate) BETWEEN 1980 AND 1989 THEN '80''s'
+		WHEN YEAR(c.BirthDate) BETWEEN 1990 AND 1999 THEN '90''s'
+		ELSE 'Others'
+	END
+ORDER BY AgeGroup 
+
+-- P13. Consumption in Mind 
+SELECT Manufacturer, AverageConsumption
+FROM (
+	SELECT TOP(7) m.Model,
+				  m.Manufacturer,
+				  AVG(m.Consumption) AS [AverageConsumption], 
+				  COUNT(m.Model) AS Counter
+	FROM Orders AS o
+	JOIN Vehicles AS v ON v.Id = o.VehicleId
+	JOIN Models AS m ON m.Id = v.ModelId
+	GROUP BY	 m.Manufacturer, 
+				 m.Model
+	--HAVING AVG(m.Consumption) BETWEEN 5 AND 15
+	ORDER BY Counter DESC
+) AS H1
+WHERE AverageConsumption  BETWEEN 5 AND 15
+ORDER BY Manufacturer,
+		 AverageConsumption
+
+-- P14.	Debt Hunter
+SELECT Names, Emails, Bills, TownsNames	 
+FROM
+	(
+		SELECT ROW_NUMBER() OVER (PARTITION BY t.[Name] ORDER BY o.Bill DESC) AS OrderBYHighestBill,
+			   CONCAT(c.FirstName, ' ', c.LastName) AS [Names],
+			   c.Email AS Emails,
+			   o.Bill AS Bills,
+			   c.Id AS ClientId,
+			   t.[Name] AS TownsNames
+		
+		FROM Clients AS c
+		JOIN Orders AS o ON o.ClientId = c.Id
+		JOIN Towns AS t ON t.Id = o.TownId
+		WHERE o.Bill IS NOT NULL AND o.CollectionDate > c.CardValidity
+	) AS H1
+WHERE OrderBYHighestBill IN(1, 2)
+ORDER BY TownsNames,
+		 Bills,
+		 ClientId;
+
+-- P15. Town Statistics 
+
+SELECT t.[Name] AS [TownName], 
+		SUM(H.M) * 100 / (ISNULL(SUM(H.M),0) + ISNULL(SUM(H.F), 0)) AS MalePercent,
+		SUM(H.F) * 100 / (ISNULL(SUM(H.M),0) + ISNULL(SUM(H.F), 0)) AS MalePercent	
+	FROM 
+		(
+			SELECT o.TownId,
+			CASE WHEN(Gender = 'M') THEN COUNT(o.Id)  END AS M,
+			CASE WHEN(Gender = 'F') THEN COUNT(o.Id)  END AS F
+			FROM Orders AS o
+			JOIN Clients AS c ON c.Id = o.ClientId
+			GROUP BY c.Gender, o.TownId
+		) AS H
+	JOIN Towns AS T ON t.Id = H.TownId
+	GROUP BY t.[Name]
+
+-- P17.	Find My Ride
+GO
+
+CREATE FUNCTION udf_CheckForVehicle
+		(@townName NVARCHAR(50),
+		 @seatsNumber INT)
+RETURNS NVARCHAR(MAX)
+	AS
+		BEGIN
+			DECLARE @Result VARCHAR(100) = 
+				( 
+					SELECT TOP(1) CONCAT(o.Name, ' - ', m.Model)
+					FROM Towns AS t 
+					JOIN Offices AS o ON o.TownId = t.Id
+					JOIN Vehicles AS v ON v.OfficeId = o.Id
+					JOIN Models AS m ON m.Id = v.ModelId
+					WHERE t.[Name] = @townName AND m.Seats = @seatsNumber
+					ORDER BY o.[Name]
+				)
+			IF(@Result IS NULL)	
+				BEGIN	 
+				 RETURN 'NO SUCH VEHICLE FOUND';
+				END
+				 RETURN @Result;
+		END
