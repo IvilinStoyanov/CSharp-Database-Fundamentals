@@ -1,4 +1,6 @@
 CREATE DATABASE RentACar
+GO
+
 USE RentACar
 GO
 
@@ -270,4 +272,65 @@ RETURNS NVARCHAR(MAX)
 				 RETURN 'NO SUCH VEHICLE FOUND';
 				END
 				 RETURN @Result;
+		END
+
+-- P18.	Move a Vehicle
+GO
+
+CREATE PROCEDURE usp_MoveVehicle @vehicleId INT , @officeId INT
+AS
+	BEGIN		
+		BEGIN TRANSACTION
+			UPDATE Vehicles
+			SET OfficeId = @officeId
+			WHERE Id = @vehicleId
+
+			DECLARE @countVehiclesById INT = 
+			(
+				SELECT COUNT(v.Id) FROM Vehicles AS v
+				WHERE v.OfficeId = @officeId
+			)
+
+			DECLARE @parkingPlaces INT =
+			(
+				SELECT o.ParkingPlaces FROM Offices AS o
+				WHERE o.Id = @officeId
+			)
+
+			IF(@countVehiclesById > @parkingPlaces) 
+				BEGIN
+					ROLLBACK;
+					RAISERROR('Not enough room in this office!', 16, 1);
+					RETURN
+				END
+			COMMIT
+	END	
+
+--P19. Move the Tally
+GO
+
+CREATE TRIGGER tr_MoveTheTally
+ON Orders
+FOR UPDATE
+	AS
+		BEGIN
+			DECLARE @newTotalMileage INT =
+				(
+					SELECT TotalMileage FROM inserted
+				)
+			DECLARE @oldTotalMileage INT =
+				(
+					SELECT TotalMileage FROM deleted
+				)
+			DECLARE @vehicleId INT = 
+				(
+					SELECT VehicleId FROM inserted
+				)
+
+			IF (@oldTotalMileage IS NULL AND @vehicleId IS NOT NULL)
+				BEGIN
+					UPDATE Vehicles
+					SET Mileage += @newTotalMileage
+					WHERE Id = @vehicleId
+				END
 		END
