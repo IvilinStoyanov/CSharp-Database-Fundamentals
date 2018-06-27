@@ -8,3 +8,4 @@ D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\L01
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\L01.Databases Advanced_EntityFramework\L01.Databases Advanced_EntityFramework\obj\Debug\netcoreapp2.0\Fetching_Resultsets_ADO.NET.AssemblyInfo.cs
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\L01.Databases Advanced_EntityFramework\L01.Databases Advanced_EntityFramework\obj\Debug\netcoreapp2.0\Fetching_Resultsets_ADO.NET.dll
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\L01.Databases Advanced_EntityFramework\L01.Databases Advanced_EntityFramework\obj\Debug\netcoreapp2.0\Fetching_Resultsets_ADO.NET.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\L01.Databases Advanced_EntityFramework\L01.Databases Advanced_EntityFramework\obj\Debug\netcoreapp2.0\Fetching_Resultsets_ADO.NET.csprojAssemblyReference.cache

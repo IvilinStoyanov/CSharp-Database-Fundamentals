@@ -108,30 +108,67 @@ namespace Fetching_Resultsets_ADO.NET
 
                 string villianName = GetVillianName(villainId, connection);
 
-                string minionsInfo = $"SELECT v.Name, m.Name AS [Minions Names] FROM Villains AS v JOIN MinionsVillains AS mv ON mv.VillainId = v.Id JOIN Minions AS m ON m.Id = mv.MinionId WHERE V.Id = {villainId} ORDER BY m.Name";
-
-                using (SqlCommand command = new SqlCommand(minionsInfo, connection))
+                if(villianName == null)
                 {
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        reader.Read();
-                       Console.WriteLine($"Villian: {reader["Name"]}");
-                        
-                        while (reader.Read())
-                        {
-                            int count = 0;
-                            Console.WriteLine($"{++count}. {reader["Minions Names"]}");
-                        }
-                    }
+                    Console.WriteLine($"No villain with ID {villainId} exists in the database.");
                 }
+                else
+                {
+                    Console.WriteLine($"Villian: {villianName}");
+                    PrintNames(villainId, connection);
+
+                }
+
+                //string minionsInfo = $"SELECT v.Name, m.Name AS [Minions Names] FROM Villains AS v JOIN MinionsVillains AS mv ON mv.VillainId = v.Id JOIN Minions AS m ON m.Id = mv.MinionId WHERE V.Id = {villainId} ORDER BY m.Name";
+
+                //using (SqlCommand command = new SqlCommand(minionsInfo, connection))
+                //{
+                //    using (SqlDataReader reader = command.ExecuteReader())
+                //    {
+                //        reader.Read();
+                //       Console.WriteLine($"Villian: {reader["Name"]}");
+                        
+                //        while (reader.Read())
+                //        {
+                //            int count = 0;
+                //            Console.WriteLine($"{++count}. {reader["Minions Names"]}");
+                //        }
+                //    }
+                //}
 
                 connection.Close();
             }
         }
 
+        private void PrintNames(int villainId, SqlConnection connection)
+        {
+            string minionsNames = "SELECT Name, Age FROM Minions AS m JOIN MinionsVillains AS mv ON mv.MinionId = m.Id WHERE mv.VillainId = @Id";
+
+            using (SqlCommand command = new SqlCommand(minionsNames, connection))
+            {
+                command.Parameters.AddWithValue("Id", villainId);
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                     if(!reader.HasRows)
+                    {
+                        Console.WriteLine("(no minions)");
+                    }
+                     else
+                    {
+                        int counter = 0;
+                        while (reader.Read())
+                        {                
+                            Console.WriteLine($"{++counter}. {reader[0]} {reader[1]} ");
+                        }
+                    }
+                }
+            }
+        }
+
         private string GetVillianName(int villainId, SqlConnection connection)
         {
-            string nameSql = "SELECT Name FROM Villians WHERE Id = @id";
+            string nameSql = "SELECT Name FROM Villains WHERE Id = @id";
 
             using (SqlCommand command = new SqlCommand(nameSql, connection))
             {
