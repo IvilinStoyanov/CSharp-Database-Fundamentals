@@ -1218,9 +1218,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\L01.Databases Advanced_EntityFramework\\L01.Databases Advanced_EntityFramework\\Databases_Advanced_EntityFramework.csproj",
-      "projectName": "Databases_Advanced_EntityFramework",
-      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\L01.Databases Advanced_EntityFramework\\L01.Databases Advanced_EntityFramework\\Databases_Advanced_EntityFramework.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\L01.Databases Advanced_EntityFramework\\L01.Databases Advanced_EntityFramework\\Fetching_Resultsets_ADO.NET.csproj",
+      "projectName": "Fetching_Resultsets_ADO.NET",
+      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\L01.Databases Advanced_EntityFramework\\L01.Databases Advanced_EntityFramework\\Fetching_Resultsets_ADO.NET.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\L01.Databases Advanced_EntityFramework\\L01.Databases Advanced_EntityFramework\\obj\\",
       "projectStyle": "PackageReference",

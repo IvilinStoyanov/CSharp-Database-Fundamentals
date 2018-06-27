@@ -1,20 +1,23 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace Databases_Advanced_EntityFramework
+namespace Fetching_Resultsets_ADO.NET
 {
     class StartUp
     {
         static void Main(string[] args)
         {
-            using (SqlConnection connection = new SqlConnection())
-            {
-                connection.Open();
+            SqlConnection connection = new SqlConnection(Configuration.ConnectionString);
 
-                string datebaseSql = ""
+            Problems problems = new Problems();
 
-                connection.Close();
-            }
+            // problems.InitialSetup(Configuration.ConnectionString); // P01.Initial Setup
+            // problems.VillainNames(Configuration.ConnectionString); // P02.Villain Names
+            problems.MinionNames(Configuration.ConnectionString);
+
+
+
+
         }
     }
 }

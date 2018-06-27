@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databases_Advanced_EntityFramework", "L01.Databases Advanced_EntityFramework\Databases_Advanced_EntityFramework.csproj", "{2BF1D2EE-AA0C-4937-951F-9271C3AE1A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fetching_Resultsets_ADO.NET", "L01.Databases Advanced_EntityFramework\Fetching_Resultsets_ADO.NET.csproj", "{2BF1D2EE-AA0C-4937-951F-9271C3AE1A8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
