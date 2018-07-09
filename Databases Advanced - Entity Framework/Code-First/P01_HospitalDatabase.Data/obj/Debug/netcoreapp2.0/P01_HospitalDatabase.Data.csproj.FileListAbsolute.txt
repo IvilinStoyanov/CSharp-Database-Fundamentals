@@ -1,0 +1,14 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Code-First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.pdb
