@@ -1,0 +1,14 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\SalesDatabase\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CopyComplete
