@@ -1,0 +1,16 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\StudentSystem\P01_StudentSystem\obj\Debug\netcoreapp2.0\P01_StudentSystem.pdb

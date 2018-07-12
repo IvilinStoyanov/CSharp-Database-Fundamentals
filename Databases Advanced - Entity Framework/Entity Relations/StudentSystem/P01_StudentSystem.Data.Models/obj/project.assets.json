@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
       "projectName": "P01_StudentSystem.Data.Models",
-      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
+      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\P01_StudentSystem.Data.Models\\obj\\",
+      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Entity Relations\\StudentSystem\\P01_StudentSystem.Data.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
