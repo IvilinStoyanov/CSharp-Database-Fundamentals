@@ -1,0 +1,8 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\bin\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\bin\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\bin\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\obj\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\obj\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\obj\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\obj\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Entity Relations\FootballBetting\P03_ FootballBetting.Data.Models\obj\Debug\netcoreapp2.0\P03_FootballBetting.Data.Models.pdb
