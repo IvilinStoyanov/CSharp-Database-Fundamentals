@@ -1,0 +1,12 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advanced Relations\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.0\P01_BillsPaymentSystem.Data.pdb
