@@ -16,10 +16,10 @@
             using (var db = new BookShopContext())
             {
                 // DbInitializer.ResetDatabase(db);
-                var input = Console.ReadLine();
+                // var input = int.Parse(Console.ReadLine());
                 //.Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                var result = GetBooksByAuthor(db, input);
+                var result = CountCopiesByAuthor(db);
 
                 Console.WriteLine(result);
             }
@@ -129,16 +129,40 @@
         public static string GetBooksByAuthor(BookShopContext context, string input)
         {
             var books = context.Books
-                               .Where(b => b.Author
-                               .LastName
-                               .ToLower()
-                               .StartsWith(input))
+                               .Where(b => EF.Functions.Like(b.Author.LastName, $"{input}%"))
                                .OrderBy(x => x.BookId)
                                .Select(b => b.Author.FirstName == null
                                ? $"{b.Title} ({b.Author.LastName})"
                                : $"{b.Title} ({b.Author.FirstName} {b.Author.LastName})");
 
             return string.Join(Environment.NewLine, books);
+        }
+
+        // P10 
+        public static int CountBooks(BookShopContext context, int lengthCheck)
+        {
+            var books = context.Books
+                               .Where(b => b.Title.Length > lengthCheck)
+                               .Select(b => b.BookId)
+                               .Count();
+            return books;
+        }
+
+        // P11
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            var copies = context.Authors
+                                .Select(x => new
+                                {
+                                    Name = x.FirstName + " " + x.LastName,
+                                    Copies = x.Books
+                                              .Select(b => b.Copies)
+                                              .Sum()
+                                })
+                                .OrderByDescending(x => x.Copies)
+                                .Select(a => $"{a.Name} - {a.Copies}");
+
+            return string.Join(Environment.NewLine, copies);
         }
 
 

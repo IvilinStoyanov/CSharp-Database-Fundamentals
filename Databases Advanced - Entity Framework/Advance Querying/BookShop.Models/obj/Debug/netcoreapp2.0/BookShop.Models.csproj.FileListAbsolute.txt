@@ -1,0 +1,8 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Advance Querying\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.pdb
