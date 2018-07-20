@@ -2,7 +2,8 @@
 {
     internal class Configuration
     {
+        // insert your server 
         internal static string ConnectionString => 
-            @"Server=GIGABYTE-PC\SQLEXPRESS;Database=BookShop;Integrated Security=True;";
+            @"Server=.;Database=BookShop;Integrated Security=True;";
     }
 }
