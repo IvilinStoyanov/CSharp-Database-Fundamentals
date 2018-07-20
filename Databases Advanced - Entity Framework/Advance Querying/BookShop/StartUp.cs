@@ -3,9 +3,11 @@
     using BookShop.Data;
     using BookShop.Initializer;
     using BookShop.Models;
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Globalization;
     using System.Linq;
+    using System.Text;
 
     public class StartUp
     {
@@ -14,12 +16,12 @@
             using (var db = new BookShopContext())
             {
                 // DbInitializer.ResetDatabase(db);
-                var input = Console.ReadLine()
-                            .Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-                
-                var result = GetBooksByCategory(db , input);
+                var input = Console.ReadLine();
+                //.Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                Console.WriteLine(string.Join(Environment.NewLine, result));
+                var result = GetBooksByAuthor(db, input);
+
+                Console.WriteLine(result);
             }
         }
 
@@ -70,10 +72,10 @@
                                .OrderBy(b => b.BookId)
                                .Select(b => b.Title);
 
-            return string.Join(Environment.NewLine , books);
+            return string.Join(Environment.NewLine, books);
         }
 
-        // P05
+        // P05 - Compile time error
         public static string GetBooksByCategory(BookShopContext context, string[] input)
         {
             var books = context.Books
@@ -82,8 +84,8 @@
                 .Any())
                 .Select(b => b.Title)
                 .OrderBy(t => t);
-                
-               return string.Join(Environment.NewLine, books);
+
+            return string.Join(Environment.NewLine, books);
         }
 
         // P06 
@@ -100,5 +102,45 @@
 
             return string.Join(Environment.NewLine, books);
         }
+
+        // P07
+        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        {
+            var authors = context.Authors
+                 .Where(a => a.FirstName != null && a.FirstName.EndsWith(input))
+                 .Select(a => a.FirstName == null ? a.LastName : $"{a.FirstName} {a.LastName}")
+                 .OrderBy(n => n);
+
+            return string.Join(Environment.NewLine, authors);
+        }
+        // P08
+        public static string GetBookTitlesContaining(BookShopContext context, string input)
+        {
+            var booksTitle = context.Books
+                                    .Where(b => EF.Functions.Like(b.Title, $"%{input}%"))
+                                    .Select(b => b.Title)
+                                    .OrderBy(b => b)
+                                    .ToList();
+
+            return string.Join(Environment.NewLine, booksTitle);
+        }
+
+        // P09
+        public static string GetBooksByAuthor(BookShopContext context, string input)
+        {
+            var books = context.Books
+                               .Where(b => b.Author
+                               .LastName
+                               .ToLower()
+                               .StartsWith(input))
+                               .OrderBy(x => x.BookId)
+                               .Select(b => b.Author.FirstName == null
+                               ? $"{b.Title} ({b.Author.LastName})"
+                               : $"{b.Title} ({b.Author.FirstName} {b.Author.LastName})");
+
+            return string.Join(Environment.NewLine, books);
+        }
+
+
     }
 }
