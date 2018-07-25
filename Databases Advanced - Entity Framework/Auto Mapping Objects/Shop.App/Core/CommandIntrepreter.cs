@@ -1,7 +1,8 @@
 ﻿using Shop.App.Core.Contracts;
+
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Reflection;
 
 namespace Shop.App.Core
 {
@@ -16,7 +17,15 @@ namespace Shop.App.Core
 
         public string Read(string[] input)
         {
-            throw new NotImplementedException();
+            string commandName = input[0] + "Command";
+
+            string[] args = input.Skip(1).ToArray();
+
+            var type = Assembly.GetCallingAssembly()
+                               .GetTypes()
+                               .FirstOrDefault(x => x.Name == commandName);
+
+           
         }
     }
 }

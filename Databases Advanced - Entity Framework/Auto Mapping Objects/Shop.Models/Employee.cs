@@ -25,8 +25,5 @@ namespace Shop.Models
         public DateTime? Birthday { get; set; }
 
         public string Address { get; set; }
-
-
-
     }
 }

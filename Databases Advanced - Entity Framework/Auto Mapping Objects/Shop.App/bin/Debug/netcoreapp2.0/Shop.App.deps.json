@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v2.0": {
       "Shop.App/1.0.0": {
         "dependencies": {
-          "Shop.Data": "1.0.0"
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Shop.Data": "1.0.0",
+          "Shop.Services": "1.0.0"
         },
         "runtime": {
           "Shop.App.dll": {}
@@ -502,6 +504,14 @@
         "runtime": {
           "Shop.Models.dll": {}
         }
+      },
+      "Shop.Services/1.0.0": {
+        "dependencies": {
+          "Shop.Data": "1.0.0"
+        },
+        "runtime": {
+          "Shop.Services.dll": {}
+        }
       }
     }
   },
@@ -916,6 +926,11 @@
       "sha512": ""
     },
     "Shop.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shop.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
