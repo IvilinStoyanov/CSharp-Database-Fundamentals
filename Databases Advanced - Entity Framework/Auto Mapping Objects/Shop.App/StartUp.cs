@@ -4,6 +4,9 @@ using Shop.Data;
 using System;
 using Shop.Services.Contracts;
 using Shop.Services;
+using Shop.App.Core.Contracts;
+using Shop.App.Core;
+using Shop.App.Core.Controllers;
 
 namespace Shop.App
 {
@@ -12,6 +15,9 @@ namespace Shop.App
         public static void Main(string[] args)
         {
             var service = ConfigureService();
+
+            IEngine engine = new Engine(service);
+            engine.Run();
         }
 
         private static IServiceProvider ConfigureService()
@@ -21,6 +27,10 @@ namespace Shop.App
             serviceColleciton.AddDbContext<ShopContext>(opts => opts.UseSqlServer(Configuration.ConnectionString));
 
             serviceColleciton.AddTransient<IDbInitializerService, DbInitializerService>();
+
+            serviceColleciton.AddTransient<ICommandIntrepreter, CommandIntrepreter>();
+
+            serviceColleciton.AddTransient<IEmployeeController, EmployeeController>();
 
             var serviceProvider = serviceColleciton.BuildServiceProvider();
 

@@ -7,3 +7,8 @@ D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Aut
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\obj\Debug\netcoreapp2.0\Shop.Services.AssemblyInfo.cs
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\obj\Debug\netcoreapp2.0\Shop.Services.dll
 D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\obj\Debug\netcoreapp2.0\Shop.Services.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\bin\Debug\netcoreapp2.0\Shop.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\bin\Debug\netcoreapp2.0\Shop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\bin\Debug\netcoreapp2.0\Shop.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\bin\Debug\netcoreapp2.0\Shop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Services\obj\Debug\netcoreapp2.0\Shop.Services.csproj.CopyComplete

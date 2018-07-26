@@ -25,7 +25,24 @@ namespace Shop.App.Core
                                .GetTypes()
                                .FirstOrDefault(x => x.Name == commandName);
 
-           
+            var constructor = type
+                              .GetConstructors()
+                              .First();
+
+            var constructorParams = constructor
+                                    .GetParameters()
+                                    .Select(s => s.ParameterType)
+                                    .ToArray();
+
+            var service = constructorParams
+                                    .Select(serviceProvider.GetService)
+                                    .ToArray();
+
+            var command = (ICommand)constructor.Invoke(service);
+
+            var result = command.Exucute(args);
+
+            return result;
         }
     }
 }
