@@ -1,0 +1,9 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.pdb

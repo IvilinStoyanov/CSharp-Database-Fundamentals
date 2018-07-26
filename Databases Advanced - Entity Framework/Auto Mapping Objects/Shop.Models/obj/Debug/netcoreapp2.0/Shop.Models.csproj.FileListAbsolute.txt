@@ -1,9 +1,0 @@
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\bin\Debug\netcoreapp2.0\Shop.Models.deps.json
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\bin\Debug\netcoreapp2.0\Shop.Models.dll
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\bin\Debug\netcoreapp2.0\Shop.Models.pdb
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.csprojAssemblyReference.cache
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.csproj.CoreCompileInputs.cache
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.AssemblyInfoInputs.cache
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.AssemblyInfo.cs
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.dll
-D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Auto Mapping Objects\Shop.Models\obj\Debug\netcoreapp2.0\Shop.Models.pdb
