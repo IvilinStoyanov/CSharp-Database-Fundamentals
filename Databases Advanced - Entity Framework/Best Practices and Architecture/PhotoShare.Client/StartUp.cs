@@ -41,9 +41,14 @@
 
 			serviceCollection.AddTransient<IAlbumRoleService, AlbumRoleService>();
 			serviceCollection.AddTransient<IPictureService, PictureService>();
+            serviceCollection.AddTransient<IAlbumRoleService, AlbumRoleService>();
+            serviceCollection.AddTransient<IAlbumService, AlbumService>();
+            serviceCollection.AddTransient<ITagService, TagService>();
+            serviceCollection.AddTransient<IUserService, UserService>();
+            serviceCollection.AddTransient<ITownService, TownService>();
 
 
-			var serviceProvider = serviceCollection.BuildServiceProvider();
+            var serviceProvider = serviceCollection.BuildServiceProvider();
 
 			return serviceProvider;
 		}

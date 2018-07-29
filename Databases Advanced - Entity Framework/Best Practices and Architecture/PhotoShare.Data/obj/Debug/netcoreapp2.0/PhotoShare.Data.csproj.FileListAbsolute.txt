@@ -1,0 +1,14 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Data.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Data.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Data.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\bin\Debug\netcoreapp2.0\PhotoShare.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Best Practices and Architecture\PhotoShare.Data\obj\Debug\netcoreapp2.0\PhotoShare.Data.pdb

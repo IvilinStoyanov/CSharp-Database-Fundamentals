@@ -26,7 +26,11 @@
 			{
 				try
 				{
-					string[] input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                    Console.WriteLine("Enter command : ");
+
+					string[] input = Console.ReadLine()
+                        .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
 					string result = commandInterpreter.Read(input);
 					Console.WriteLine(result);
 				}
