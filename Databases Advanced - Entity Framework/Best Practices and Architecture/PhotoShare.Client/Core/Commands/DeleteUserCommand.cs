@@ -6,11 +6,11 @@
     using Contracts;
     using Services.Contracts;
 
-    public class DeleteUser : ICommand
+    public class DeleteUserCommand : ICommand
     {
         private readonly IUserService userService;
 
-        public DeleteUser(IUserService userService)
+        public DeleteUserCommand(IUserService userService)
         {
             this.userService = userService;
         }
@@ -27,7 +27,7 @@
                 throw new ArgumentException($"User {username} not found!");
             }
 
-            var user = this.userService.ByUsername<UserDto>(username);
+            this.userService.Delete(username);
 
 
             return $"User {username} was deleted from the database!";

@@ -2,11 +2,15 @@
 {
     using System;
     using Contracts;
+    using PhotoShare.Services.Contracts;
 
     public class AddTagToCommand : ICommand
     {
-        public AddTagToCommand()
+        private readonly ITagService tagService;
+
+        public AddTagToCommand(ITagService tagService)
         {
+            this.tagService = tagService;
         }
 
         // AddTagTo <albumName> <tag>

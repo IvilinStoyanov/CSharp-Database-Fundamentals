@@ -13,6 +13,8 @@
 
             CreateMap<Town, TownDto>().ReverseMap();
 
+            CreateMap<Town, Town>();
+
             CreateMap<Album, AlbumDto>().ReverseMap();
 
             CreateMap<Tag, TagDto>().ReverseMap();

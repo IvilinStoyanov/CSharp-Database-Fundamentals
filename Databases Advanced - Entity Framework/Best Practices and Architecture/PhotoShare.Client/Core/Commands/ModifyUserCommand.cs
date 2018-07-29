@@ -31,9 +31,9 @@
 
             var userExist = this.userService.Exists(username);
 
-            if(!userExist)
+            if (!userExist)
             {
-                throw new ArgumentException($"User {username} not found");  
+                throw new ArgumentException($"User {username} not found");
             }
 
             var userId = this.userService.ByUsername<UserDto>(username).Id;
@@ -42,28 +42,61 @@
             {
                 SetPassowrd(userId, value);
             }
-            else if(property == "BornTown")
+            else if (property == "BornTown")
             {
                 SetBornTown(userId, value);
             }
-            
+            else if (property == "CurrentTown")
+            {
+                SetCurrentTown(userId, value);
+            }
+            else
+            {
+                throw new ArgumentException($"Property {property} not supported!");
+            }
+
+            return $"User {username} {property} is {value}.";
+        }
+
+        private void SetCurrentTown(int userId, string name)
+        {
+            var isTownExist = this.townService.Exists(name);
+
+            if (!isTownExist)
+            {
+                throw new ArgumentException($"Value {name} not valid.\nTown {name} not found!”");
+            }
+
+            var townId = this.townService.ByName<TownDto>(name).Id;
+
+            this.userService.SetCurrentTown(userId, townId);
         }
 
         private void SetBornTown(int userId, string name)
         {
             var isTownExist = this.townService.Exists(name);
-        }
 
-        private void SetPassowrd(int userId, string value)
-        {
-           var isValidPassword = value.Any(x => char.IsLower(x) && char.IsDigit(x));
-
-            if(!isValidPassword)
+            if (!isTownExist)
             {
-                throw new ArgumentException($"Value {value} not valid/n Invalid Password");
+                throw new ArgumentException($"Value {name} not valid.\nTown {name} not found!”");
             }
 
-            this.userService.ChangePassword(userId, value);
+            var townId = this.townService.ByName<TownDto>(name).Id;
+
+            this.userService.SetBornTown(userId, townId);
+        }
+
+        private void SetPassowrd(int userId, string password)
+        {
+            var isDigit = password.Any(x => char.IsDigit(x));
+            var isLower = password.Any(x => char.IsLower(x));
+
+            if (!isDigit || !isLower)
+            {
+                throw new ArgumentException($"Value {password} not valid/n Invalid Password");
+            }
+
+            this.userService.ChangePassword(userId, password);
         }
     }
 }
