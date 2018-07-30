@@ -1084,6 +1084,7 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "PhotoShare.Data": "1.0.0",
+          "PhotoShare.Models": "1.0.0",
           "automapper": "7.0.1"
         },
         "compile": {

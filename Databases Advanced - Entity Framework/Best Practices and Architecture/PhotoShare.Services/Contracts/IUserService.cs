@@ -12,7 +12,7 @@
 
         bool Exists(string name);
 
-        UserFriendDto Register(string username, string password, string email);
+        User Register(string username, string password, string email);
 
         void Delete(string username);
 
@@ -25,5 +25,15 @@
         void SetBornTown(int userId, int townId);
 
         void SetCurrentTown(int userId, int townId);
+
+        User User { get; }
+
+        bool IsLoggedIn { get; }
+
+        User Login(string username, string password);
+
+        string Logout();
+
+        void Authorize();
     }
 }

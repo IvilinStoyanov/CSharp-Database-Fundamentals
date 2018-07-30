@@ -39,7 +39,7 @@
 
             var albumExist = this.albumService.Exists(albumTitle);
 
-            if (!albumExist)
+            if (albumExist)
             {
                 throw new ArgumentException($"Album {albumTitle} exists!");
             }

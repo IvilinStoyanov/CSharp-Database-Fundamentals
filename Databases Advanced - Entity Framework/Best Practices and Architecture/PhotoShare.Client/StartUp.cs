@@ -47,7 +47,6 @@
             serviceCollection.AddTransient<IUserService, UserService>();
             serviceCollection.AddTransient<ITownService, TownService>();
 
-
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
 			return serviceProvider;

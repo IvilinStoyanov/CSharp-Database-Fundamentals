@@ -574,6 +574,7 @@
       "PhotoShare.Services/1.0.0": {
         "dependencies": {
           "PhotoShare.Data": "1.0.0",
+          "PhotoShare.Models": "1.0.0",
           "AutoMapper": "7.0.1"
         },
         "runtime": {

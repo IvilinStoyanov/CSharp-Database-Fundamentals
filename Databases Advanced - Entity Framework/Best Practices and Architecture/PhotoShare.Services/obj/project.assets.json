@@ -3675,6 +3675,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
       "PhotoShare.Data >= 1.0.0",
+      "PhotoShare.Models >= 1.0.0",
       "automapper >= 7.0.1"
     ]
   },
@@ -3710,6 +3711,9 @@
           "projectReferences": {
             "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Best Practices and Architecture\\PhotoShare.Data\\PhotoShare.Data.csproj": {
               "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Best Practices and Architecture\\PhotoShare.Data\\PhotoShare.Data.csproj"
+            },
+            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Best Practices and Architecture\\PhotoShare.Models\\PhotoShare.Models.csproj": {
+              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\Best Practices and Architecture\\PhotoShare.Models\\PhotoShare.Models.csproj"
             }
           }
         }

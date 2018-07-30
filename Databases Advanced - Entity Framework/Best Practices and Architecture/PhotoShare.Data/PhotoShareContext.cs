@@ -15,7 +15,7 @@ namespace PhotoShare.Data
 	    {
 	    }
         
-        public DbSet<UserFriendDto> Users { get; set; }   
+        public DbSet<User> Users { get; set; }   
         public DbSet<Album> Albums { get; set; }
         public DbSet<Picture> Pictures { get; set; }
         public DbSet<Tag> Tags { get; set; }

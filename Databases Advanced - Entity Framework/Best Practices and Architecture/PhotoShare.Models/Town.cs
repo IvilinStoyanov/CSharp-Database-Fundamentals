@@ -6,8 +6,8 @@
     {
         public Town()
         {
-            this.UsersBornInTown = new HashSet<UserFriendDto>();
-            this.UsersCurrentlyLivingInTown = new HashSet<UserFriendDto>();
+            this.UsersBornInTown = new HashSet<User>();
+            this.UsersCurrentlyLivingInTown = new HashSet<User>();
         }
 
         public int Id { get; set; }
@@ -16,8 +16,8 @@
 
         public string Country { get; set; }
 
-        public ICollection<UserFriendDto> UsersBornInTown { get; set; }
+        public ICollection<User> UsersBornInTown { get; set; }
 
-        public ICollection<UserFriendDto> UsersCurrentlyLivingInTown { get; set; } 
+        public ICollection<User> UsersCurrentlyLivingInTown { get; set; } 
     }
 }

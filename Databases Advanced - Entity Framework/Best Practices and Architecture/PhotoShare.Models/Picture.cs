@@ -14,6 +14,6 @@
         public Album Album { get; set; }
 
         public int UserProfileId { get; set; }
-        public UserFriendDto UserProfile { get; set; }
+        public User UserProfile { get; set; }
     }
 }
