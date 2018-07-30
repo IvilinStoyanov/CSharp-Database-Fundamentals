@@ -4,9 +4,9 @@
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
     using Models;
 
-    class UserConfig : IEntityTypeConfiguration<User>
+    class UserConfig : IEntityTypeConfiguration<UserFriendDto>
     {
-        public void Configure(EntityTypeBuilder<User> builder)
+        public void Configure(EntityTypeBuilder<UserFriendDto> builder)
         {
             builder.HasKey(e => e.Id);
 
@@ -49,7 +49,7 @@
 
             builder.HasOne(e => e.ProfilePicture)
                    .WithOne(p => p.UserProfile)
-                   .HasForeignKey<User>(u => u.ProfilePictureId);
+                   .HasForeignKey<UserFriendDto>(u => u.ProfilePictureId);
 
             builder.Property(e => e.RegisteredOn)
                    .IsRequired(false)

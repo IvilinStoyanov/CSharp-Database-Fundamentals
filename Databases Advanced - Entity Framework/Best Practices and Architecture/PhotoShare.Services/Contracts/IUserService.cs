@@ -12,7 +12,7 @@
 
         bool Exists(string name);
 
-        User Register(string username, string password, string email);
+        UserFriendDto Register(string username, string password, string email);
 
         void Delete(string username);
 

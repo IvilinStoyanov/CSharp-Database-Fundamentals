@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    public class User
+    public class UserFriendDto
     {
-        public User()
+        public UserFriendDto()
         {
             this.FriendsAdded = new HashSet<Friendship>();
             this.AlbumRoles = new HashSet<AlbumRole>();

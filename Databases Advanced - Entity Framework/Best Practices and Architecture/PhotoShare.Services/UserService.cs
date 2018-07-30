@@ -24,10 +24,10 @@ namespace PhotoShare.Services
                => this.By<TModel>(x => x.Username == username).SingleOrDefault();
 
         public bool Exists(int id)
-               => this.ById<User>(id) != null;
-
+               => this.ById<UserFriendDto>(id) != null;
+            
         public bool Exists(string name)
-                => this.ByUsername<User>(name) != null;
+                => this.ByUsername<UserFriendDto>(name) != null;
 
         public Friendship AcceptFriend(int userId, int friendId)
         {
@@ -61,7 +61,7 @@ namespace PhotoShare.Services
 
         public void ChangePassword(int userId, string password)
         {
-            var user = this.ById<User>(userId);
+            var user = this.ById<UserFriendDto>(userId);
 
             user.Password = password;
 
@@ -70,7 +70,7 @@ namespace PhotoShare.Services
 
         public void Delete(string username)
         {
-            var user = this.ByUsername<User>(username);
+            var user = this.ByUsername<UserFriendDto>(username);
 
             user.IsDeleted = true; 
 
@@ -79,9 +79,9 @@ namespace PhotoShare.Services
             this.context.SaveChanges();
         }
 
-        public User Register(string username, string password, string email)
+        public UserFriendDto Register(string username, string password, string email)
         {
-            var user = new User()
+            var user = new UserFriendDto()
             {
                 Username = username,
                 Password = password,
@@ -98,7 +98,7 @@ namespace PhotoShare.Services
 
         public void SetBornTown(int userId, int townId)
         {
-            var user = this.ById<User>(userId);
+            var user = this.ById<UserFriendDto>(userId);
 
             user.BornTownId = townId;
 
@@ -107,14 +107,14 @@ namespace PhotoShare.Services
 
         public void SetCurrentTown(int userId, int townId)
         {
-            var user = this.ById<User>(userId);
+            var user = this.ById<UserFriendDto>(userId);
 
             user.CurrentTownId = townId;
 
             this.context.SaveChanges();
         }
 
-        private IEnumerable<TModel> By<TModel>(Func<User, bool> predicate)
+        private IEnumerable<TModel> By<TModel>(Func<UserFriendDto, bool> predicate)
             => this.context.Users
             .Where(predicate)
             .AsQueryable()

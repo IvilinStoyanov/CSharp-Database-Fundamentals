@@ -26,12 +26,12 @@
 
             if(!userExist)
             {
-                throw new ArgumentException($"{username} not found!");
+                throw new ArgumentException($"User {username} not found!");
             }
 
             if (!friendExist)
             {
-                throw new ArgumentException($"{friendUsername} not found!");
+                throw new ArgumentException($"User {friendUsername} not found!");
             }
 
             var user = this.userService.ByUsername<UserFriendsDto>(username);
@@ -55,7 +55,7 @@
 
             this.userService.AddFriend(user.Id, friend.Id);
 
-            return $"{friend.Username} accepted {user.Username} as a friend";
+            return $"{friend.Username} added to {user.Username}";
         }
     }
 }

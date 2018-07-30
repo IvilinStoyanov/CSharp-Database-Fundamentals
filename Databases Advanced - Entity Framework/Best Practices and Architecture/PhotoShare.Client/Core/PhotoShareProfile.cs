@@ -9,7 +9,7 @@
     {
         public PhotoShareProfile()
         {
-            CreateMap<User, User>();
+            CreateMap<UserFriendDto, UserFriendDto>();
 
             CreateMap<Town, TownDto>().ReverseMap();
 
@@ -24,7 +24,7 @@
                     .ForMember(dest => dest.Username, from => from.MapFrom(p => p.User.Username))
                     .ReverseMap();
 
-	        CreateMap<User, UserFriendsDto>()
+	        CreateMap<UserFriendDto, UserFriendsDto>()
 		        .ForMember(dto => dto.Friends,
 			        opt => opt.MapFrom(u => u.FriendsAdded));
 
