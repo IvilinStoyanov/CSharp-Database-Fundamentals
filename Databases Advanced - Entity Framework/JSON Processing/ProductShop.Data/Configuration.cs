@@ -2,6 +2,7 @@
 {
     public class Configuration
     {
-        public static string ConnectionString => @"Server=.; Database=ProductShop;Integrated Security=True";
+        public static string ConnectionString =>
+            @"Server=GIGABYTE-PC\SQLEXPRESS; Database=ProductShop;Integrated Security=True";
     }
 }

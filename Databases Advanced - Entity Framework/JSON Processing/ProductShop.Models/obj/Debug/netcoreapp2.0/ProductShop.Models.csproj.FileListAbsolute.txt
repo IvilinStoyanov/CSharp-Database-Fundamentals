@@ -7,3 +7,12 @@ C:\Users\Stoyan\Desktop\DB\2. DB-Advanced-EF-Core\11. DB-Advanced-JSON-Processin
 C:\Users\Stoyan\Desktop\DB\2. DB-Advanced-EF-Core\11. DB-Advanced-JSON-Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.AssemblyInfo.cs
 C:\Users\Stoyan\Desktop\DB\2. DB-Advanced-EF-Core\11. DB-Advanced-JSON-Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.dll
 C:\Users\Stoyan\Desktop\DB\2. DB-Advanced-EF-Core\11. DB-Advanced-JSON-Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\bin\Debug\netcoreapp2.0\ProductShop.Models.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\bin\Debug\netcoreapp2.0\ProductShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\bin\Debug\netcoreapp2.0\ProductShop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductShop.Models\obj\Debug\netcoreapp2.0\ProductShop.Models.pdb
