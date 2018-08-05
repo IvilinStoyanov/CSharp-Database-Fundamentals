@@ -1,0 +1,12 @@
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\bin\Debug\netcoreapp2.0\ProductsShop.Data.deps.json
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\bin\Debug\netcoreapp2.0\ProductsShop.Data.dll
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\bin\Debug\netcoreapp2.0\ProductsShop.Data.pdb
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\bin\Debug\netcoreapp2.0\ProductsShop.Models.dll
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\bin\Debug\netcoreapp2.0\ProductsShop.Models.pdb
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.csprojAssemblyReference.cache
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.AssemblyInfoInputs.cache
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.AssemblyInfo.cs
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.csproj.CopyComplete
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.dll
+D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Data\obj\Debug\netcoreapp2.0\ProductsShop.Data.pdb
