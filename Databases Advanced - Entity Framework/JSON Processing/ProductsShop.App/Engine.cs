@@ -1,28 +1,31 @@
 ﻿namespace ProductsShop.App
 {
     using Microsoft.EntityFrameworkCore;
+    using Newtonsoft.Json;
     using ProductsShop.App.DTOs.JsonExport;
     using ProductsShop.App.DTOs.Shared;
     using ProductsShop.App.Exports;
     using ProductsShop.App.Imports;
     using ProductsShop.Data;
     using System;
+    using System.IO;
     using System.Linq;
 
     public class Engine
     {
-        private const string ProductsInRangeSellerExportFilePathJson = "Exports/Json/ProductsInRange ({0}-{1}) {2}.json";
-        private const string SuccessfullySoldProductsExportFilePathJson = "Exports/Json/SuccessfullySoldProducts.json";
-        private const string CategoriesByProductsCountExportFilePathJson = "Exports/Json/CategoriesByProductsCount.json";
-        private const string UsersAndProductsExportFilePathJson = "Exports/Json/UsersAndProducts.json";
+        private const string ProductsInRangeSellerExportFilePathJson 
+            = "../../../Exports/Json/ProductsInRange.json";
 
-        private const string ProductsInRangeBuyerExportFilePathXml = "Exports/Xml/ProductsInRange ({0}-{1}) {2}.xml";
-        private const string SellersWithSoldSoldProductsExportFilePathXml = "Exports/Xml/SellersWithSoldSoldProducts.xml";
-        private const string CategoriesByProductsCountExportFilePathXml = "Exports/Xml/CategoriesByProductsCount.xml";
-        private const string UsersAndProductsExportFilePathXml = "Exports/Xml/UsersAndProducts.xml";
+        private const string SuccessfullySoldProductsExportFilePathJson 
+            = "../../../Exports/Json/SuccessfullySoldProducts.json";
+
+        private const string CategoriesByProductsCountExportFilePathJson 
+            = "../../../Exports/Json/CategoriesByProductsCount.json";
+
+        private const string UsersAndProductsExportFilePathJson 
+            = "../../../Exports/Json/UsersAndProducts.json";
 
         private JsonExporter jsonExporter;
-
 
         public Engine()
         {
@@ -38,14 +41,13 @@
 
         public void Run()
         {
-
-            ResetDatabase(new JSONImporter(new ProductsShopContext()));
+           // ResetDatabase(new JSONImporter(new ProductsShopContext()));
 
             /* JSON Export Without DTO */
             // this.JsonExportProductsInRangeWithoutDto(500, 1000); // Query 1 - Products In Range
 
             /* JSON Export With DTO */
-            // this.JsonExportProductsInRange(500, 1000); // Query 1 - Products In Range
+            this.JsonExportProductsInRange(500, 1000); // Query 1 - Products In Range
             // this.JsonExportSuccessfullySoldProducts(); // Query 2 - Successfully Sold Products
             // this.JsonExportCategoriesByProductsCount(); // Query 3 - Categories By Products Count
            // this.JsonExportUsersAndProducts(); // Query 4 - Users and Products
@@ -93,8 +95,8 @@
                     .ToArray();
             }
 
-            var date = DateTime.Now.ToString("dd-MM-yyyy");
-            var filePath = string.Format(ProductsInRangeSellerExportFilePathJson, minPrice, maxPrice, date);
+            var filePath = ProductsInRangeSellerExportFilePathJson;
+
             this.jsonExporter.Export(filePath, products);
         }
 
@@ -145,7 +147,7 @@
                     .ToArray();
             }
 
-            this.jsonExporter.Export(CategoriesByProductsCountExportFilePathXml, categories);
+         //   this.jsonExporter.Export(CategoriesByProductsCountExportFilePathXml, categories);
         }
 
         private void JsonExportUsersAndProducts()

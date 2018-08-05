@@ -6,3 +6,12 @@ D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework
 D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.AssemblyInfo.cs
 D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.dll
 D:\GitHub\Test\Software-University-SoftUni\Databases Advanced - Entity Framework Core\External Format Processing\ProductsShop\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\bin\Debug\netcoreapp2.0\ProductsShop.Models.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\bin\Debug\netcoreapp2.0\ProductsShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\bin\Debug\netcoreapp2.0\ProductsShop.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\ProductsShop.Models\obj\Debug\netcoreapp2.0\ProductsShop.Models.pdb
