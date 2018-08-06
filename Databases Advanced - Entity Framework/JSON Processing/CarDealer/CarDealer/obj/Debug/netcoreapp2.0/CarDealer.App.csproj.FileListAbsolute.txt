@@ -1,0 +1,16 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.App.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.App.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.App.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.App.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.App.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\bin\Debug\netcoreapp2.0\CarDealer.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\JSON Processing\CarDealer\CarDealer\obj\Debug\netcoreapp2.0\CarDealer.App.csproj.CopyComplete
