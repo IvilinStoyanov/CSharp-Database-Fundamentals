@@ -3,6 +3,6 @@
     public class DbConfig
     {
         public const string ConnectionString
-            = @"Server=GIGABYTE-PC\SQLEXPRESS; Database=ProductShop;Integrated Security=True";
+            = @"Server=.; Database=ProductShop;Integrated Security=True";
     }
 }
