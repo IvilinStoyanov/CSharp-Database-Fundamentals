@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj",
       "projectName": "ProductsShop.Models",
-      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj",
+      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\obj\\",
+      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

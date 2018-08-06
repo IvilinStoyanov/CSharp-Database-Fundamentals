@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Data\\ProductsShop.Data.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Data\\ProductsShop.Data.csproj",
       "projectName": "ProductsShop.Data",
-      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Data\\ProductsShop.Data.csproj",
+      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Data\\ProductsShop.Data.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Data\\obj\\",
+      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3437,8 +3437,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj": {
-              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj"
+            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj": {
+              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj"
             }
           }
         }

@@ -4582,11 +4582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.App\\ProductsShop.App.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.App\\ProductsShop.App.csproj",
       "projectName": "ProductsShop.App",
-      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.App\\ProductsShop.App.csproj",
+      "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.App\\ProductsShop.App.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.App\\obj\\",
+      "outputPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4605,11 +4605,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Data\\ProductsShop.Data.csproj": {
-              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Data\\ProductsShop.Data.csproj"
+            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Data\\ProductsShop.Data.csproj": {
+              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Data\\ProductsShop.Data.csproj"
             },
-            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj": {
-              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop.Models\\ProductsShop.Models.csproj"
+            "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj": {
+              "projectPath": "D:\\GitHub\\CSharp-Database-Fundamentals\\Databases Advanced - Entity Framework\\JSON Processing\\ProductsShop\\ProductsShop.Models\\ProductsShop.Models.csproj"
             }
           }
         }
