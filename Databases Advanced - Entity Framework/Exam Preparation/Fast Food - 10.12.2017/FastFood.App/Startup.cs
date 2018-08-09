@@ -28,9 +28,10 @@ namespace FastFood.App
 			BonusTask(context);
 		}
 
-		private static void ImportEntities(FastFoodDbContext context, string baseDir = @"..\Datasets\")
+		private static void ImportEntities(FastFoodDbContext context, string baseDir =
+            @"..\..\..\..\Datasets\")
 		{
-			const string exportDir = "./ImportResults/";
+			const string exportDir = "../../../ImportResults/";
 
 			var employees = DataProcessor.Deserializer.ImportEmployees(context, File.ReadAllText(baseDir + "employees.json"));
 			PrintAndExportEntityToFile(employees, exportDir + "Employees.txt");

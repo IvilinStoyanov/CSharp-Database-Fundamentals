@@ -1,0 +1,12 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Fast Food - 10.12.2017\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.pdb
