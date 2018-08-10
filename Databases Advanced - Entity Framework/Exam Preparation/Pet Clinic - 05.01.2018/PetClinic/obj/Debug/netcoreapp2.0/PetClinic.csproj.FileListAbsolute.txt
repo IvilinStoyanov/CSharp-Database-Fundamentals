@@ -1,0 +1,11 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\bin\Debug\netcoreapp2.0\PetClinic.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\bin\Debug\netcoreapp2.0\PetClinic.runtimeconfig.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\bin\Debug\netcoreapp2.0\PetClinic.runtimeconfig.dev.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\bin\Debug\netcoreapp2.0\PetClinic.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\bin\Debug\netcoreapp2.0\PetClinic.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Pet Clinic - 05.01.2018\PetClinic\obj\Debug\netcoreapp2.0\PetClinic.pdb
