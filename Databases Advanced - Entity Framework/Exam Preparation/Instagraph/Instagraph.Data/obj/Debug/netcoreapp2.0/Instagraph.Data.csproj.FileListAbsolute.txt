@@ -1,0 +1,12 @@
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\bin\Debug\netcoreapp2.0\Instagraph.Data.deps.json
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\bin\Debug\netcoreapp2.0\Instagraph.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\bin\Debug\netcoreapp2.0\Instagraph.Data.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.csprojAssemblyReference.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.AssemblyInfoInputs.cache
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.AssemblyInfo.cs
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.csproj.CopyComplete
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.dll
+D:\GitHub\CSharp-Database-Fundamentals\Databases Advanced - Entity Framework\Exam Preparation\Instagraph\Instagraph.Data\obj\Debug\netcoreapp2.0\Instagraph.Data.pdb

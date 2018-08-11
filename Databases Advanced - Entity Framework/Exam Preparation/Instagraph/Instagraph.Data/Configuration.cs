@@ -2,6 +2,7 @@
 {
     internal class Configuration
     {
-        internal static string ConnectionString => "Server=.;Database=Instagraph;Integrated Security=True;";
+        internal static string ConnectionString =>
+            "Server=GIGABYTE-PC\SQLEXPRESS;Database=Instagraph;Integrated Security=True;";
     }
 }
