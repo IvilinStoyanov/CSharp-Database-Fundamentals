@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Instagraph.Models
 {
@@ -23,7 +24,6 @@ namespace Instagraph.Models
         [MaxLength(20)]
         public string Password { get; set; }
 
-        [Required]
         public int ProfilePictureId { get; set; }
         public Picture ProfilePicture { get; set; }
 

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Instagraph.Models
 {
@@ -15,11 +16,9 @@ namespace Instagraph.Models
         [Required]
         public string Caption { get; set; }
 
-        [Required]
         public int UserId { get; set; }
         public User User { get; set; }
 
-        [Required]
         public int PictureId { get; set; }
         public Picture Picture { get; set; }
 
