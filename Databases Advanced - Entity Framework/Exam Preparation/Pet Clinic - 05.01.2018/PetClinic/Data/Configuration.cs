@@ -3,6 +3,6 @@
     public static class Configuration
     {
         public static string ConnectionString 
-            = @"Server=GIGABYTE-PC\SQLEXPRESS;Database=PetClinic;Trusted_Connection=True";
+            = @"Server=.;Database=PetClinic;Trusted_Connection=True";
     }
 }
