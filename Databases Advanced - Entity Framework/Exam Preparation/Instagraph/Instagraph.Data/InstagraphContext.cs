@@ -34,22 +34,43 @@ namespace Instagraph.Data
                 .HasForeignKey(e => e.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            //modelBuilder.Entity<User>().HasMany(u => u.Followers)
+            //    .WithOne(u => u.User)
+            //    .HasForeignKey(u => u.UserId)
+            //    .OnDelete(DeleteBehavior.Restrict);
+
             modelBuilder.Entity<UserFollower>().HasOne(e => e.Follower)
                 .WithMany(u => u.UsersFollowing)
                 .HasForeignKey(e => e.FollowerId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Post>().HasOne(x => x.User)
-                 .WithMany(x => x.Posts)
-                 .HasForeignKey(x => x.UserId)
-                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Comment>()
-               .HasOne(e => e.User)
-               .WithMany(u => u.Comments)
-               .HasForeignKey(e => e.UserId)
-               .OnDelete(DeleteBehavior.Restrict);
+            //modelBuilder.Entity<User>().HasMany(u => u.UsersFollowing)
+            //    .WithOne(u => u.User)
+            //    .HasForeignKey(u => u.FollowerId)
+            //    .OnDelete(DeleteBehavior.Restrict);
 
+
+            //modelBuilder.Entity<Post>().HasOne(x => x.User)
+            //     .WithMany(x => x.Posts)
+            //     .HasForeignKey(x => x.UserId)
+            //     .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>().HasMany(u => u.Posts)
+                .WithOne(u => u.User)
+                .HasForeignKey(u => u.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            //modelBuilder.Entity<Comment>()
+            //   .HasOne(e => e.User)
+            //   .WithMany(u => u.Comments)
+            //   .HasForeignKey(e => e.UserId)
+            //   .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>().HasMany(u => u.Comments)
+              .WithOne(u => u.User)
+              .HasForeignKey(u => u.UserId)
+              .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

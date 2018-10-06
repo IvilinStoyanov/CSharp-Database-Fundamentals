@@ -28,7 +28,7 @@ namespace Instagraph.App
 
             using (var context = new InstagraphContext())
             {
-                string picturesJson = File.ReadAllText("files/input/pictures.json");
+                string picturesJson = File.ReadAllText("../../../files/input/pictures.json");
 
                 sb.AppendLine(Deserializer.ImportPictures(context, picturesJson));
 
